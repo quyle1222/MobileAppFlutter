@@ -1,4 +1,4 @@
-import 'package:clone_app/controllers/home_controller.dart';
+import 'package:clone_app/container/controllers/home_controller.dart';
 import 'package:get/get.dart';
 
 class HomeBinding implements Bindings {
