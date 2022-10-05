@@ -8,7 +8,7 @@ class HomeView extends GetView<HomeController> {
 
   @override
   Widget build(Object context) {
-    print(dotenv.env['BASE_URL']);
+    // print(dotenv.env['BASE_URL']);
     return Container();
   }
 }
