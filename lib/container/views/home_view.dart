@@ -5,10 +5,16 @@ import 'package:get/get.dart';
 
 class HomeView extends GetView<HomeController> {
   const HomeView({super.key});
-
   @override
   Widget build(Object context) {
-    // print(dotenv.env['BASE_URL']);
-    return Container();
+    return const Scaffold(
+      backgroundColor: Colors.amber,
+      body: Center(
+        child: Text(
+          "test",
+          style: TextStyle(fontSize: 25),
+        ),
+      ),
+    );
   }
 }
